@@ -3,6 +3,7 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     screens: {
+      xs: "360px",
       sm: "480px",
       md: "768px",
       lg: "976px",
@@ -11,9 +12,15 @@ export default {
     colors: {
       bgwhite: "#fff",
       bgblack: "#191919",
+      bgblue: "#1B7196",
+      bgslightdarkblue: "#11678C",
+      txtwhite: "#fff",
+      txtblack: "#232323",
+      txtgrey: "#919191",
     },
     fontFamily: {
-      sans: ["Poppins", "sans-serif"],
+      // nunito: ["Nunito", "sans-serif"],
+      sans: ["Nunito", "sans-serif"],
     },
     extend: {
       spacing: {

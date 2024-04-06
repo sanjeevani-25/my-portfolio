@@ -1,0 +1,95 @@
+{
+  "home": [
+    {
+      "name": "Sanjeevani Lakade",
+      "description1": "Passionate and driven individual with a background in Computer Science and a fervent interest in web development and UI/UX design. Skilled in coding and design principles, I thrive on bringing creative visions to life while ensuring seamless functionality. Committed to continuous learning and growth, I'm excited to leverage my expertise to drive impactful projects forward and make a meaningful difference in the tech world.",
+      "description2": "Passionate and driven individual with a background in Computer Science and a fervent interest in web development"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Skill 1",
+      "description": "This is skill 1"
+    },
+    {
+      "name": "Skill 2",
+      "description": "This is skill 2"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project 1",
+      "timeline": "25-03-2020 to 25-03-2021",
+      "description": "This is project 1",
+      "link": "www.github.com",
+      "demo": "www.project1demo.com",
+      "tasks": ["This is task 1", "This is task 2"],
+      "skills": ["Skill 1", "Skill 2"],
+      "categories": ["Web developement", "Frontend", "Backend", "Fullstack"]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Experience 1",
+      "website": "www.experience1.com",
+      "role": "Web Developer",
+      "timeline": "25-03-2020 to 25-03-2021",
+      "description": "This is experience 1",
+      "tasks": ["This is task 1", "This is task 2"],
+      "skills": ["Skill 1", "Skill 2"],
+      "categories": ["Web developement", "Frontend", "Backend", "Fullstack"]
+    }
+  ],
+  "categories": [
+    {
+      "name": "Web developement",
+      "description": "This is category 1"
+    },
+    {
+      "name": "Frontend",
+      "description": "This is category 2"
+    },
+    {
+      "name": "Backend",
+      "description": "This is category 3"
+    },
+    {
+      "name": "Fullstack",
+      "description": "This is category 4"
+    },
+    {
+      "name": "Mobile developement",
+      "description": "This is category 5"
+    },
+    {
+      "name": "React Native",
+      "description": "This is category 6"
+    },
+    {
+      "name": "Flutter",
+      "description": "This is category 7"
+    },
+    {
+      "name": "UI/UX Design",
+      "description": "This is category 8"
+    },
+    {
+      "name": "SEO",
+      "description": "This is category 9"
+    }
+  ],
+  "hobbies": [
+    {
+      "name": "Photography",
+      "content": "This is hobby 1"
+    },
+    {
+      "name": "Drawing",
+      "content": "This is hobby 2"
+    },
+    {
+      "name": "Anime",
+      "content": "This is hobby 2"
+    }
+  ]
+}
