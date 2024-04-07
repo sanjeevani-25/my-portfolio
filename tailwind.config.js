@@ -12,15 +12,19 @@ export default {
     colors: {
       bgwhite: "#fff",
       bgblack: "#191919",
-      bgblue: "#1B7196",
+      bgblue: "#191919",
+      bggrey: "#919191",
+      // bgblue: "#1B7196",
       bgslightdarkblue: "#11678C",
       txtwhite: "#fff",
       txtblack: "#232323",
       txtgrey: "#919191",
     },
     fontFamily: {
-      // nunito: ["Nunito", "sans-serif"],
-      sans: ["Nunito", "sans-serif"],
+      // sans: ["Nunito", "sans-serif"],
+      // oleo: ["Oleo Script", "cursive"],
+      sans: ["Roboto Mono", "monospace"],
+      kaushan: ["Kaushan Script", "cursive"],
     },
     extend: {
       spacing: {

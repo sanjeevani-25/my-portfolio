@@ -11,7 +11,7 @@ const Home = () => {
       </div>
       <div class="w-full h-fit text-center flex flex-col gap-4">
         <p class="text-sm lg:text-base text-txtgrey">Hello, I'm</p>
-        <h1 class="text-2xl lg:text-4xl font-bold text-txtblack">
+        <h1 class="font-kaushan text-4xl lg:text-5xl font-bold text-txtblack">
           Sanjeevani <br />
           Lakade
         </h1>

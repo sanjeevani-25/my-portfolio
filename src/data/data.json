@@ -6,16 +6,32 @@
       "description2": "Passionate and driven individual with a background in Computer Science and a fervent interest in web development"
     }
   ],
-  "skills": [
-    {
-      "name": "Skill 1",
-      "description": "This is skill 1"
-    },
-    {
-      "name": "Skill 2",
-      "description": "This is skill 2"
-    }
-  ],
+  "skills": {
+    "tech": [
+      {
+        "name": "Skill 1",
+        "description": "This is skill 1"
+      },
+      {
+        "name": "Skill 2",
+        "description": "This is skill 2"
+      }
+    ],
+    "design": [
+      {
+        "name": "Skill 1",
+        "description": "This is skill 1"
+      },
+      {
+        "name": "Skill 1",
+        "description": "This is skill 1"
+      },
+      {
+        "name": "Skill 2",
+        "description": "This is skill 2"
+      }
+    ]
+  },
   "projects": [
     {
       "name": "Project 1",
