@@ -9,38 +9,105 @@
   "skills": {
     "tech": [
       {
-        "name": "Skill 1",
-        "description": "This is skill 1"
+        "name": "Reactjs",
+        "description": "This is Reactjs"
       },
       {
-        "name": "Skill 2",
-        "description": "This is skill 2"
+        "name": "MongoDB",
+        "description": "This is MongoDB"
       }
     ],
     "design": [
       {
-        "name": "Skill 1",
-        "description": "This is skill 1"
+        "name": "Reactjs",
+        "description": "This is Reactjs"
       },
       {
-        "name": "Skill 1",
-        "description": "This is skill 1"
+        "name": "Reactjs",
+        "description": "This is Reactjs"
       },
       {
-        "name": "Skill 2",
-        "description": "This is skill 2"
+        "name": "MongoDB",
+        "description": "This is MongoDB"
       }
     ]
   },
   "projects": [
     {
       "name": "Project 1",
+      "img": "/src/assets/images/amazon_rainforest.png",
       "timeline": "25-03-2020 to 25-03-2021",
       "description": "This is project 1",
-      "link": "www.github.com",
+      "code": "https://www.github.com",
       "demo": "www.project1demo.com",
       "tasks": ["This is task 1", "This is task 2"],
-      "skills": ["Skill 1", "Skill 2"],
+      "skills": ["Reactjs", "MongoDB"],
+      "categories": ["Web developement", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "Project 2",
+      "img": "/src/assets/images/amazon_rainforest.png",
+      "timeline": "Mar 2020 to Mar 2021",
+      "description": "This is project 2",
+      "code": "https://www.github.com",
+      "demo": "www.project2demo.com",
+      "tasks": ["This is task 1", "This is task 2"],
+      "skills": ["Reactjs", "MongoDB"],
+      "categories": ["Web developement", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "Project 2",
+      "img": "/src/assets/images/amazon_rainforest.png",
+      "timeline": "Mar 2020 to Mar 2021",
+      "description": "This is project 2",
+      "code": "https://www.github.com",
+      "demo": "www.project2demo.com",
+      "tasks": ["This is task 1", "This is task 2"],
+      "skills": ["Reactjs", "MongoDB"],
+      "categories": ["Web developement", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "Project 2",
+      "img": "/src/assets/images/amazon_rainforest.png",
+      "timeline": "Mar 2020 to Mar 2021",
+      "description": "This is project 2",
+      "code": "https://www.github.com",
+      "demo": "www.project2demo.com",
+      "tasks": ["This is task 1", "This is task 2"],
+      "skills": ["Reactjs", "MongoDB"],
+      "categories": ["Web developement", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "Project 2",
+      "img": "/src/assets/images/amazon_rainforest.png",
+      "timeline": "Mar 2020 to Mar 2021",
+      "description": "This is project 2",
+      "code": "https://www.github.com",
+      "demo": "www.project2demo.com",
+      "tasks": ["This is task 1", "This is task 2"],
+      "skills": ["Reactjs", "MongoDB"],
+      "categories": ["Web developement", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "Project 2",
+      "img": "/src/assets/images/amazon_rainforest.png",
+      "timeline": "Mar 2020 to Mar 2021",
+      "description": "This is project 2",
+      "code": "https://www.github.com",
+      "demo": "www.project2demo.com",
+      "tasks": ["This is task 1", "This is task 2"],
+      "skills": ["Reactjs", "MongoDB"],
+      "categories": ["Web developement", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "Project 3",
+      "img": "/src/assets/images/amazon_rainforest.png",
+      "timeline": "25-03-2020 to 25-03-2021",
+      "description": "This is project 1",
+      "code": "https://www.github.com",
+      "demo": "www.project1demo.com",
+      "tasks": ["This is task 1", "This is task 2"],
+      "skills": ["Reactjs"],
       "categories": ["Web developement", "Frontend", "Backend", "Fullstack"]
     }
   ],
@@ -52,46 +119,92 @@
       "timeline": "25-03-2020 to 25-03-2021",
       "description": "This is experience 1",
       "tasks": ["This is task 1", "This is task 2"],
-      "skills": ["Skill 1", "Skill 2"],
+      "skills": ["Reactjs", "MongoDB"],
+      "categories": ["Web developement", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "company": "Experience 1",
+      "website": "www.experience1.com",
+      "role": "Web Developer",
+      "timeline": "25-03-2020 to 25-03-2021",
+      "description": "This is experience 1",
+      "tasks": ["This is task 1", "This is task 2"],
+      "skills": ["Reactjs", "MongoDB"],
       "categories": ["Web developement", "Frontend", "Backend", "Fullstack"]
     }
   ],
   "categories": [
     {
-      "name": "Web developement",
-      "description": "This is category 1"
+      "label": "Web developement",
+      "description": "This is category 1",
+      "options": [
+        { "value": "Reactjs", "label": "Reactjs" },
+        { "value": "MongoDB", "label": "MongoDB" }
+      ]
     },
     {
-      "name": "Frontend",
-      "description": "This is category 2"
+      "label": "Frontend",
+      "description": "This is category 2",
+      "options": [
+        { "value": "Reactjs", "label": "Reactjs" },
+        { "value": "MongoDB", "label": "MongoDB" }
+      ]
     },
     {
-      "name": "Backend",
-      "description": "This is category 3"
+      "label": "Backend",
+      "description": "This is category 3",
+      "options": [
+        { "value": "Reactjs", "label": "Reactjs" },
+        { "value": "MongoDB", "label": "MongoDB" }
+      ]
     },
     {
-      "name": "Fullstack",
-      "description": "This is category 4"
+      "label": "Fullstack",
+      "description": "This is category 4",
+      "options": [
+        { "value": "Reactjs", "label": "Reactjs" },
+        { "value": "MongoDB", "label": "MongoDB" }
+      ]
     },
     {
-      "name": "Mobile developement",
-      "description": "This is category 5"
+      "label": "Mobile developement",
+      "description": "This is category 5",
+      "options": [
+        { "value": "Reactjs", "label": "Reactjs" },
+        { "value": "MongoDB", "label": "MongoDB" }
+      ]
     },
     {
-      "name": "React Native",
-      "description": "This is category 6"
+      "label": "React Native",
+      "description": "This is category 6",
+      "options": [
+        { "value": "Reactjs", "label": "Reactjs" },
+        { "value": "MongoDB", "label": "MongoDB" }
+      ]
     },
     {
-      "name": "Flutter",
-      "description": "This is category 7"
+      "label": "Flutter",
+      "description": "This is category 7",
+      "options": [
+        { "value": "Reactjs", "label": "Reactjs" },
+        { "value": "MongoDB", "label": "MongoDB" }
+      ]
     },
     {
-      "name": "UI/UX Design",
-      "description": "This is category 8"
+      "label": "UI/UX Design",
+      "description": "This is category 8",
+      "options": [
+        { "value": "Reactjs", "label": "Reactjs" },
+        { "value": "MongczsdoDB", "label": "XY4ZdfgdABC" }
+      ]
     },
     {
-      "name": "SEO",
-      "description": "This is category 9"
+      "label": "SEO",
+      "description": "This is category 9",
+      "options": [
+        { "value": "Reactjs", "label": "Reactjs" },
+        { "value": "MongoDB", "label": "MongoDB" }
+      ]
     }
   ],
   "hobbies": [

@@ -11,7 +11,7 @@ function SkillsCard({ skill }) {
         </span>
         {/* <FontAwesomeIcon icon={faDownload} /> */}
       </div>
-      <span class="text-txtgrey group-hover:text-txtwhite/70">
+      <span class="text-txtgrey text-md group-hover:text-txtwhite/70">
         {skill.description}
       </span>
     </div>

@@ -46,24 +46,21 @@ const Navbar = () => {
             ["Experience", "experience", faBriefcase],
             ["Contact", "contact", faEnvelope],
           ].map(([title, url, iconName]) => (
-            <li
-              key={title}
-              class="relative group px-6 pt-3 cursor-pointer flex-1 justify-center hover:scale-110"
-            >
-              <a href={`#${url}`}>
+            <a key={title} href={`#${url}`}>
+              <li class="relative group px-6 pt-3 cursor-pointer flex flex-col justify-center items-center hover:scale-110 h-fit">
                 <FontAwesomeIcon
                   className="size-5"
                   // style={"group-hover" ? { color: "#74C0FC" } : {}}
                   icon={iconName}
                 />
 
-                <div class="w-5 border-t-2 opacity-0 my-2 group-hover:opacity-100"></div>
+                <div class="invisible w-5 border-t-2 my-2 group-hover:visible"></div>
 
-                <span class="invisible text-txtgrey opacity-0 group-hover:opacity-100 text-xs pointer-events-none group-hover:visible">
+                <span class="invisible text-txtgrey text-xs pointer-events-none group-hover:visible">
                   {title}
                 </span>
-              </a>
-            </li>
+              </li>
+            </a>
           ))}
         </ul>
       </div>

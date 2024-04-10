@@ -7,11 +7,16 @@ import Profile from "./pages/Profile";
 import Projects from "./pages/Projects";
 import Experience from "./pages/Experience";
 import Contact from "./pages/Contact";
+import Footer from "./pages/Footer";
 import { Routes, Route } from "react-router-dom";
+// import gsap from "gsap";
+
 
 function App() {
+  const container = useRef();
+
   return (
-    <div>
+    <div ref={container} >
       <Navbar />
       <Home />
       <Profile />
@@ -19,6 +24,7 @@ function App() {
       <Projects />
       <Experience />
       <Contact />
+      {/* <Footer /> */}
     </div>
   );
 }
