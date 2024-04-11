@@ -14,11 +14,8 @@ const Skills = () => {
     "w-fit rounded-lg px-4 sm:px-12 py-2  border-solid border-2 border-bggrey text-txtgrey hover:border-bgblack hover:text-txtblack text-sm md:text-base";
 
   return (
-    <section
-      id="skills"
-      class="w-full h-screen flex flex-col items-center justify-center gap-12"
-    >
-      <h1 class="text-center text-4xl font-bold text-txtblack ">Skills</h1>
+    <section id="skills" class="w-full h-fit flex flex-col gap-12 px-12 py-24">
+      <h1 class="text-center text-4xl font-bold text-txtblack">Skills</h1>
       <div class="w-full flex flex-col items-center justify-center gap-8">
         <div class="flex items-center justify-center gap-8" role="group">
           <button

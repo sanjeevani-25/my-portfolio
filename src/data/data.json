@@ -9,7 +9,67 @@
   "skills": {
     "tech": [
       {
+        "name": "Git/Github",
+        "description": "This is Reactjs"
+      },
+      {
+        "name": "VSCode",
+        "description": "This is Reactjs"
+      },
+      {
+        "name": "Java",
+        "description": "This is Reactjs"
+      },
+      {
+        "name": "Python",
+        "description": "This is Reactjs"
+      },
+      {
+        "name": "MySQL",
+        "description": "This is Reactjs"
+      },
+      {
+        "name": "Javascript",
+        "description": "This is Reactjs"
+      },
+      {
+        "name": "HTML/CSS",
+        "description": "This is Reactjs"
+      },
+      {
+        "name": "GSAP Animation",
+        "description": "This is Reactjs"
+      },
+      {
+        "name": "Canvas API",
+        "description": "This is Reactjs"
+      },
+      {
+        "name": "Rapid API",
+        "description": "This is Reactjs"
+      },
+      {
+        "name": "Verilog",
+        "description": "This is Reactjs"
+      },
+      {
+        "name": "Google Earth Engine (GEE)",
+        "description": "This is Reactjs"
+      },
+      {
+        "name": "Netbeans",
+        "description": "This is Reactjs"
+      },
+      {
         "name": "Reactjs",
+        "description": "This is Reactjs"
+      },
+      {
+        "name": "Expressjs",
+        "description": "This is Reactjs"
+      },
+      {
+        "name": "Nodejs",
         "description": "This is Reactjs"
       },
       {
@@ -19,118 +79,184 @@
     ],
     "design": [
       {
-        "name": "Reactjs",
-        "description": "This is Reactjs"
+        "name": "Figma",
+        "description": "Proficient in Figma to create user-centered interfaces for web and mobile applications."
       },
       {
-        "name": "Reactjs",
-        "description": "This is Reactjs"
+        "name": "Protyping",
+        "description": "Experienced in creating interactive prototypes using Figma to validate design decisions and gather user feedback."
       },
       {
-        "name": "MongoDB",
-        "description": "This is MongoDB"
+        "name": "Wireframing",
+        "description": "Experienced in creating interactive prototypes using Figma to validate design decisions and gather user feedback."
+      },
+      {
+        "name": "User Interface",
+        "description": "Skilled in crafting aesthetically pleasing and user-friendly UI elements like buttons, icons, and layouts."
+      },
+      {
+        "name": "Website Design",
+        "description": "Experienced in crafting user-friendly and visually appealing websites."
+      },
+      {
+        "name": "App Design",
+        "description": "Skilled in designing intuitive and engaging mobile app interfaces."
       }
     ]
   },
   "projects": [
     {
+      "name": "CareShare",
+      "img": ["careshare-cover.jpeg"],
+      "vid": "careshare-vid.mkv",
+      "timeline": "25-03-2020 to 25-03-2021",
+      "description": "Secure donation platform connecting NGOs & donors (books, clothes, education, food, money).",
+      "code": "https://github.com/sanjeevani-25/CareShare",
+      "demo": "",
+      "details": [
+        "Developed CareShare platform connecting NGOs with donors, streamlining donation processes for various categories including books, clothing, education, food, and monetary contributions.",
+        "Integrated secure monetary transactions using EtherJS and Ethereum blockchain, ensuring transparency and decentralization for donors' peace of mind."
+      ],
+      "skills": [
+        "Reactjs",
+        "MongoDB",
+        "Node.js",
+        "Expressjs",
+        "EtherJS",
+        "WhatsApp API"
+      ],
+      "categories": ["Web developement", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "Amazon Deforestation Time Series Analysis",
+      "img": ["amazon_rainforest.png"],
+      "vid": "",
+      "timeline": "25-03-2020 to 25-03-2021",
+      "description": "This is project 1",
+      "code": "https://www.github.com/sanjeevani-25/amazon-rainforest-deforestation",
+      "demo": "https://code.earthengine.google.com/349b4b05936a77786f0ebf0b5c839db5?noload=true",
+      "details": [
+        "Developed a deforestation analysis tool using Google Earth Engine and the Hansen Global Forest Change dataset, providing visualizations of deforestation area, cumulative deforestation, and deforestation rate over the years in the Amazon rainforest.",
+        "Implemented complex data processing tasks including loading and visualizing geospatial data, performing pixel-wise operations, and aggregating results into meaningful metrics, contributing to environmental awareness and conservation efforts."
+      ],
+      "skills": [
+        "JavaScript",
+        "Google Earth Engine (GEE)",
+        "Data Analysis",
+        "Data Visualization",
+        "Geospatial Analysis"
+      ],
+      "categories": ["Data Analysis"]
+    },
+    {
+      "name": "Library Management System",
+      "img": ["amazon_rainforest.png"],
+      "vid": "",
+      "timeline": "25-03-2020 to 25-03-2021",
+      "description": "This is project 1",
+      "code": "https://github.com/sanjeevani-25/library-management-netbeans-sql",
+      "demo": "",
+      "details": [
+        "Developed a Library Management application in Java with NetBeans IDE, enabling CRUD (create, read, update, delete) operations for efficient management.",
+        "Enhanced user experience by integrating search functionality, reservation status checks, and tracking issuance and return dates."
+      ],
+      "skills": ["Java", "MySQL", "DBMS", "Netbeans"],
+      "categories": ["Software Development", "Database Management"]
+    },
+    {
+      "name": "YouText - Youtube summarizer",
+      "img": ["amazon_rainforest.png"],
+      "vid": "",
+      "timeline": "25-03-2020 to 25-03-2021",
+      "description": "This is project 1",
+      "code": "https://www.github.com/sanjeevani-25/youtube-summarize",
+      "demo": "",
+      "details": [
+        "Led development of YouText, utilizing NLP & ML for concise YouTube video summaries, enhancing user experience by quick insights sans full video watch.",
+        "Implemented dual summarization strategies, abstractive & extractive, ensuring accurate & diverse summaries, evaluated via BertScore, ROUGE, & METEOR metrics for robustness."
+      ],
+      "skills": ["Python", "Machine Learning", "Streamlit", "NLP"],
+      "categories": ["Machine Learning", "Software Development"]
+    },
+    {
+      "name": "Zeitgeist IIT Ropar",
+      "img": [
+        "zeit_0.jpeg",
+        "zeit_1.jpeg",
+        "zeit_2.jpeg",
+        "zeit_3.jpeg",
+        "zeit_4.jpeg",
+        "zeit_5.jpeg",
+        "zeit_6.jpeg"
+      ],
+      "vid": "Zeitgeist_IITR-vid.mp4",
+      "timeline": "Aug 2023 - Nov 2023",
+      "code": "",
+      "demo": "",
+      "figma": "https://www.figma.com/file/h5h6MvQlT8SNIoFpMXI1tU/Sanjeevani---All-My-Designs-(shared)?type=design&node-id=0-1&mode=design&t=f6vciJpo8Q6leGVL-0",
+      "description": "Spearheaded the design of Zeitgeist IIT Ropar's Cultural Fest website, resulting in a visually stunning and user-friendly experience that drove a 33% surge in visitor traffic.",
+      "details": [
+        "Led the designing of a user-centric and visually captivating website for Zeitgeist IIT Ropar's Cultural Fest.",
+        "Achieved a 33% increase in visitor traffic compared to the previous year.",
+        "Collaborated closely with core team members and Zeitgeist organizers, integrating their insights and ideas to enhance user engagement and satisfaction."
+      ],
+      "skills": ["Figma", "Protyping", "Website Design", "User Interface"],
+      "categories": ["UI/UX Design"]
+    },
+    {
       "name": "Project 1",
-      "img": "/src/assets/images/amazon_rainforest.png",
+      "img": ["amazon_rainforest.png"],
+      "vid": "",
       "timeline": "25-03-2020 to 25-03-2021",
       "description": "This is project 1",
       "code": "https://www.github.com",
-      "demo": "www.project1demo.com",
-      "tasks": ["This is task 1", "This is task 2"],
+      "demo": "",
+      "details": ["This is task 1", "This is task 2"],
       "skills": ["Reactjs", "MongoDB"],
       "categories": ["Web developement", "Frontend", "Backend", "Fullstack"]
     },
     {
-      "name": "Project 2",
-      "img": "/src/assets/images/amazon_rainforest.png",
-      "timeline": "Mar 2020 to Mar 2021",
-      "description": "This is project 2",
-      "code": "https://www.github.com",
-      "demo": "www.project2demo.com",
-      "tasks": ["This is task 1", "This is task 2"],
-      "skills": ["Reactjs", "MongoDB"],
-      "categories": ["Web developement", "Frontend", "Backend", "Fullstack"]
-    },
-    {
-      "name": "Project 2",
-      "img": "/src/assets/images/amazon_rainforest.png",
-      "timeline": "Mar 2020 to Mar 2021",
-      "description": "This is project 2",
-      "code": "https://www.github.com",
-      "demo": "www.project2demo.com",
-      "tasks": ["This is task 1", "This is task 2"],
-      "skills": ["Reactjs", "MongoDB"],
-      "categories": ["Web developement", "Frontend", "Backend", "Fullstack"]
-    },
-    {
-      "name": "Project 2",
-      "img": "/src/assets/images/amazon_rainforest.png",
-      "timeline": "Mar 2020 to Mar 2021",
-      "description": "This is project 2",
-      "code": "https://www.github.com",
-      "demo": "www.project2demo.com",
-      "tasks": ["This is task 1", "This is task 2"],
-      "skills": ["Reactjs", "MongoDB"],
-      "categories": ["Web developement", "Frontend", "Backend", "Fullstack"]
-    },
-    {
-      "name": "Project 2",
-      "img": "/src/assets/images/amazon_rainforest.png",
-      "timeline": "Mar 2020 to Mar 2021",
-      "description": "This is project 2",
-      "code": "https://www.github.com",
-      "demo": "www.project2demo.com",
-      "tasks": ["This is task 1", "This is task 2"],
-      "skills": ["Reactjs", "MongoDB"],
-      "categories": ["Web developement", "Frontend", "Backend", "Fullstack"]
-    },
-    {
-      "name": "Project 2",
-      "img": "/src/assets/images/amazon_rainforest.png",
-      "timeline": "Mar 2020 to Mar 2021",
-      "description": "This is project 2",
-      "code": "https://www.github.com",
-      "demo": "www.project2demo.com",
-      "tasks": ["This is task 1", "This is task 2"],
-      "skills": ["Reactjs", "MongoDB"],
-      "categories": ["Web developement", "Frontend", "Backend", "Fullstack"]
-    },
-    {
-      "name": "Project 3",
-      "img": "/src/assets/images/amazon_rainforest.png",
+      "name": "SHOPEE",
+      "img": ["amazon_rainforest.png"],
       "timeline": "25-03-2020 to 25-03-2021",
-      "description": "This is project 1",
-      "code": "https://www.github.com",
+      "description": "Shopee: Streamlined user login, signup, and password management with JWT for a secure and user-friendly e-commerce experience.",
+      "code": "https://www.github.com/SHOPEE",
       "demo": "www.project1demo.com",
-      "tasks": ["This is task 1", "This is task 2"],
-      "skills": ["Reactjs"],
+      "details": [
+        "Orchestrated secure user authentication via JWT tokens and cookies, enabling streamlined login, signup, and password operations.",
+        "Implemented role-based access control, endowing administrators with elevated privileges such as product management, while affording standard users essential features, fortifying system security."
+      ],
+      "skills": ["Reactjs", "MongoDB", "Node.js", "Expressjs"],
       "categories": ["Web developement", "Frontend", "Backend", "Fullstack"]
     }
   ],
   "experience": [
     {
-      "company": "Experience 1",
-      "website": "www.experience1.com",
-      "role": "Web Developer",
-      "timeline": "25-03-2020 to 25-03-2021",
-      "description": "This is experience 1",
-      "tasks": ["This is task 1", "This is task 2"],
-      "skills": ["Reactjs", "MongoDB"],
-      "categories": ["Web developement", "Frontend", "Backend", "Fullstack"]
+      "company": "Giakaa",
+      "website": "https://www.giakaa.com/",
+      "role": "UI/UX Design Intern",
+      "timeline": "Sept 2023 - Dec 2023",
+      "description": "Designed user-friendly website interfaces and engaging social media content to promote brands and drive user interaction.",
+      "details": [
+        "Designed visually engaging, user-centric interfaces for websites at Giakaa and interactive prototypes with Figma",
+        "Designed impactful posters for social media, promoting brand awareness, alongside pitch deck designs and article posters for enhanced engagement."
+      ],
+      "skills": ["Figma", "Protyping", "Website Design", "Pitch Deck design"],
+      "categories": ["UI/UX Design"]
     },
     {
-      "company": "Experience 1",
-      "website": "www.experience1.com",
-      "role": "Web Developer",
-      "timeline": "25-03-2020 to 25-03-2021",
-      "description": "This is experience 1",
-      "tasks": ["This is task 1", "This is task 2"],
-      "skills": ["Reactjs", "MongoDB"],
-      "categories": ["Web developement", "Frontend", "Backend", "Fullstack"]
+      "company": "Zeitgeist IIT Ropar",
+      "website": "https://www.linkedin.com/posts/sanjeevani-lakade_uiuxdesign-inspiration-iitropar-activity-7125892758275248130-rVso",
+      "role": "UI/UX Designer",
+      "timeline": "Aug 2023 - Nov 2023",
+      "description": "Spearheaded the design of Zeitgeist IIT Ropar's Cultural Fest website, resulting in a visually stunning and user-friendly experience that drove a 33% surge in visitor traffic.",
+      "details": [
+        "Led the designing of a user-centric and visually captivating website for Zeitgeist IIT Ropar's Cultural Fest.",
+        "Achieved a 33% increase in visitor traffic compared to the previous year.",
+        "Collaborated closely with core team members and Zeitgeist organizers, integrating their insights and ideas to enhance user engagement and satisfaction."
+      ],
+      "skills": ["Figma", "Protyping", "Website Design", "User Interface"],
+      "categories": ["UI/UX Design"]
     }
   ],
   "categories": [
@@ -143,7 +269,7 @@
       ]
     },
     {
-      "label": "Frontend",
+      "label": "Frontend development",
       "description": "This is category 2",
       "options": [
         { "value": "Reactjs", "label": "Reactjs" },
@@ -151,7 +277,7 @@
       ]
     },
     {
-      "label": "Backend",
+      "label": "Backend development",
       "description": "This is category 3",
       "options": [
         { "value": "Reactjs", "label": "Reactjs" },
@@ -159,7 +285,7 @@
       ]
     },
     {
-      "label": "Fullstack",
+      "label": "Fullstack development",
       "description": "This is category 4",
       "options": [
         { "value": "Reactjs", "label": "Reactjs" },
@@ -167,7 +293,7 @@
       ]
     },
     {
-      "label": "Mobile developement",
+      "label": "Mobile App developement",
       "description": "This is category 5",
       "options": [
         { "value": "Reactjs", "label": "Reactjs" },
@@ -175,7 +301,7 @@
       ]
     },
     {
-      "label": "React Native",
+      "label": "Data Science",
       "description": "This is category 6",
       "options": [
         { "value": "Reactjs", "label": "Reactjs" },
@@ -183,7 +309,23 @@
       ]
     },
     {
-      "label": "Flutter",
+      "label": "Machine Learning",
+      "description": "This is category 7",
+      "options": [
+        { "value": "Reactjs", "label": "Reactjs" },
+        { "value": "MongoDB", "label": "MongoDB" }
+      ]
+    },
+    {
+      "label": "Software Development",
+      "description": "This is category 7",
+      "options": [
+        { "value": "Reactjs", "label": "Reactjs" },
+        { "value": "MongoDB", "label": "MongoDB" }
+      ]
+    },
+    {
+      "label": "Database Management",
       "description": "This is category 7",
       "options": [
         { "value": "Reactjs", "label": "Reactjs" },
@@ -196,14 +338,6 @@
       "options": [
         { "value": "Reactjs", "label": "Reactjs" },
         { "value": "MongczsdoDB", "label": "XY4ZdfgdABC" }
-      ]
-    },
-    {
-      "label": "SEO",
-      "description": "This is category 9",
-      "options": [
-        { "value": "Reactjs", "label": "Reactjs" },
-        { "value": "MongoDB", "label": "MongoDB" }
       ]
     }
   ],

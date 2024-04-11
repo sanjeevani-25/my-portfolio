@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import AboutMeSVG from "../assets/about-me-svg-1.svg";
 import data from "../data/data.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import { faDownload, faFile } from "@fortawesome/free-solid-svg-icons";
 
 function Profile() {
   const [TLDR, setTLDR] = useState("TL;DR");
@@ -20,10 +21,16 @@ function Profile() {
     );
   }, [TLDR]);
 
+  const navigateTo = useNavigate();
+
+  const toContact = () => {
+    navigateTo("/contact");
+  };
+
   return (
     <section
       id="profile"
-      class="w-full h-screen flex flex-col items-center justify-center gap-8"
+      class="w-full h-screen flex flex-col items-center gap-8 pt-24"
     >
       <h1 class="text-center text-4xl font-bold text-txtblack ">About me</h1>
       <div class="w-full flex items-center justify-center">
@@ -37,9 +44,13 @@ function Profile() {
           <div class="flex justify-center gap-12 md:gap-8 items-center">
             <button class="w-fit rounded-xl px-4 md:px-8 py-2 bg-bgblue border-solid border-2 border-bgblue text-txtwhite text-sm lg:text-base hover:bg-bggrey/50 hover:text-txtblack flex gap-2 items-center">
               RESUME
-              <FontAwesomeIcon icon={faDownload} />
+              {/* <FontAwesomeIcon icon={faDownload} /> */}
+              <FontAwesomeIcon icon={faFile} />
             </button>
-            <button class="w-fit rounded-xl px-4 md:px-8 py-2 border-solid border-2 border-bgblue text-sm lg:text-base text-txtblack hover:bg-bggrey/50">
+            <button
+              class="w-fit rounded-xl px-4 md:px-8 py-2 border-solid border-2 border-bgblue text-sm lg:text-base text-txtblack hover:bg-bggrey/50"
+              onClick={toContact}
+            >
               HIRE ME
             </button>
             <button
