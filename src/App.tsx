@@ -1,7 +1,7 @@
-import { useState, useRef, useEffect } from "react";
+// import { useState, useRef, useEffect } from "react";
 import Navbar from "./pages/Navbar";
 import Home from "./pages/Home";
-import Skills from "./pages/Skills";
+import Skills from "/pages/Skills";
 import Profile from "./pages/Profile";
 import Projects from "./pages/Projects";
 import Experience from "./pages/Experience";

@@ -46,11 +46,11 @@ const Navbar = () => {
   };
 
   return (
-    // <Headroom class="headroom--pinned">
-    // <header class="">
-    <nav class="hidden fixed bg-bgwhite top-0 left-0 w-full md:flex items-center justify-between sm:justify-center px-8 sm:px-8 z-40 lg:px-20 py-4 sm:py-3">
-      <div class="hidden sm:block ">
-        <ul class="flex items-center justify-center gap-6">
+    // <Headroom className="headroom--pinned">
+    // <header className="">
+    <nav className="hidden fixed bg-bgwhite top-0 left-0 w-full md:flex items-center justify-between sm:justify-center px-8 sm:px-8 z-40 lg:px-20 py-4 sm:py-3">
+      <div className="hidden sm:block ">
+        <ul className="flex items-center justify-center gap-6">
           {[
             ["Home", "home", faHouse],
             ["Profile", "profile", faUser],
@@ -60,7 +60,7 @@ const Navbar = () => {
             ["Contact", "contact", faEnvelope],
           ].map(([title, url, iconName]) => (
             <Link key={title} to={`/${url}`} onClick={() => handleClick(url)}>
-              <li class="relative group px-6 pt-3 cursor-pointer flex flex-col justify-center items-center hover:scale-110 h-fit">
+              <li className="relative group px-6 pt-3 cursor-pointer flex flex-col justify-center items-center hover:scale-110 h-fit">
                 <FontAwesomeIcon
                   className="size-5"
                   // style={"group-hover" ? { color: "#74C0FC" } : {}}
@@ -69,12 +69,12 @@ const Navbar = () => {
                 />
 
                 <div
-                  class={` w-5 border-t-2 my-2 group-hover:visible ${
+                  className={` w-5 border-t-2 my-2 group-hover:visible ${
                     selectedLink == url ? "visible" : "invisible"
                   }`}
                 ></div>
 
-                <span class="invisible text-txtgrey text-xs pointer-events-none group-hover:visible">
+                <span className="invisible text-txtgrey text-xs pointer-events-none group-hover:visible">
                   {title}
                 </span>
               </li>

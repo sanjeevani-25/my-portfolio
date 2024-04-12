@@ -33,56 +33,56 @@ function Contact() {
   return (
     <section
       id="contact"
-      class=" w-full min-h-screen max-h-fit overflow-visible flex flex-col items-center px-12 pt-24"
+      className=" w-full min-h-screen max-h-fit overflow-visible flex flex-col items-center px-12 pt-24"
     >
-      <h1 class="text-center text-4xl font-bold text-txtblack">
+      <h1 className="text-center text-4xl font-bold text-txtblack">
         Let's Connect
       </h1>
-      <div class="w-full flex items-center justify-center m-auto">
-        <div class="md:w-1/2 hidden md:block">
-          <img src={ContactMeSVG} alt="" class="m-auto w-3/4 lg:w-1/2" />
+      <div className="w-full flex items-center justify-center m-auto">
+        <div className="md:w-1/2 hidden md:block">
+          <img src={ContactMeSVG} alt="" className="m-auto w-3/4 lg:w-1/2" />
         </div>
-        <div class="w-1/2 flex justify-center">
+        <div className="w-1/2 flex justify-center">
           <form
             ref={form}
             className="flex flex-col gap-4 justify-center"
             onSubmit={sendEmail}
           >
-            <div class={textboxclass}>
+            <div className={textboxclass}>
               <label htmlFor="name">Full Name</label>
               <input
                 name="user_name"
-                class={inputboxclass}
+                className={inputboxclass}
                 type="text"
                 id="name"
                 required
               />
             </div>
-            <div class={textboxclass}>
+            <div className={textboxclass}>
               <label htmlFor="email">Email</label>
               <input
                 name="user_email"
-                class={inputboxclass}
+                className={inputboxclass}
                 type="email"
                 id="email"
                 required
               />
             </div>
-            <div class={textboxclass}>
+            <div className={textboxclass}>
               <label htmlFor="email-subject">Subject</label>
               <input
                 name="user_subject"
-                class={inputboxclass}
+                className={inputboxclass}
                 type="text"
                 id="email-subject"
                 required
               />
             </div>
-            <div class={textboxclass}>
+            <div className={textboxclass}>
               <label htmlFor="msg">Leave your message here.</label>
               <textarea
                 name="message"
-                class="bg-bggrey/3 border border-bggrey/50 text-txtblack/80 text-sm rounded-md focus:ring-bggrey/20 focus:border-bgblack/80 block"
+                className="bg-bggrey/3 border border-bggrey/50 text-txtblack/80 text-sm rounded-md focus:ring-bggrey/20 focus:border-bgblack/80 block"
                 id="msg"
                 rows="4"
                 cols="40"
@@ -96,7 +96,7 @@ function Contact() {
               Submit
             </button>
             {isSuccess && (
-              <p class="text-green-500 text-md text-center">
+              <p className="text-green-500 text-md text-center">
                 Form submitted successfully!
               </p>
             )}
