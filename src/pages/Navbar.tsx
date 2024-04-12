@@ -1,7 +1,7 @@
 // import { ReactComponent as Brand } from '../../assets/icons/logo.svg'
 // import "../App.css";
-import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHouse,
@@ -9,8 +9,6 @@ import {
   faLightbulb,
   faBriefcase,
   faEnvelope,
-  faMoon,
-  faSun,
   faGear,
 } from "@fortawesome/free-solid-svg-icons";
 // import Headroom from "react-headroom";
@@ -59,7 +57,7 @@ const Navbar = () => {
                   className="size-5"
                   // style={"group-hover" ? { color: "#74C0FC" } : {}}
                   // style={{ color: selectedLink == url ? "white" : "" }}
-                  icon={iconName}
+                  icon={iconName as IconProp}
                 />
 
                 <div
