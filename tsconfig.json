@@ -16,7 +16,8 @@
 
     "noImplicitAny": false,
 
-    // "allowJs": true,
+    "allowJs": true,
+    
 
     /* Linting */
     "strict": true,
