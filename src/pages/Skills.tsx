@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState } from "react";
 import SkillsCard from "../components/SkillsCard";
 import data from "../data/data.json";
 
