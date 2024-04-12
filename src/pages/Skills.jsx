@@ -16,13 +16,13 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      class="w-full h-screen flex flex-col items-center justify-center gap-12"
+      className="w-full h-fit flex flex-col gap-12 px-12 py-24"
     >
-      <h1 class="text-center text-4xl font-bold text-txtblack ">Skills</h1>
-      <div class="w-full flex flex-col items-center justify-center gap-8">
-        <div class="flex items-center justify-center gap-8" role="group">
+      <h1 className="text-center text-4xl font-bold text-txtblack">Skills</h1>
+      <div className="w-full flex flex-col items-center justify-center gap-8">
+        <div className="flex items-center justify-center gap-8" role="group">
           <button
-            class={defaultStyle}
+            className={defaultStyle}
             style={Choice === "tech" ? onclickStyle : {}}
             onClick={() => {
               setChoice("tech");
@@ -31,7 +31,7 @@ const Skills = () => {
             Tech
           </button>
           <button
-            class={defaultStyle}
+            className={defaultStyle}
             style={Choice === "design" ? onclickStyle : {}}
             onClick={() => {
               setChoice("design");
@@ -40,7 +40,7 @@ const Skills = () => {
             Design
           </button>
         </div>
-        <div class="flex flex-wrap xs:gap-4 md:gap-8 xs:px-12 md:px-32 justify-center">
+        <div className="flex flex-wrap xs:gap-4 md:gap-8 xs:px-12 md:px-32 justify-center">
           {data.skills[Choice].map((skill, index) => (
             <SkillsCard key={index} skill={skill} />
           ))}

@@ -25,10 +25,10 @@ function Projects() {
   return (
     <section
       id="projects"
-      class=" w-full min-h-screen overflow-visible flex flex-col justify-center items-center px-12 py-24"
+      className=" w-full min-h-screen overflow-visible flex flex-col justify-center items-center px-12 py-24"
     >
       {/* Search by name / tags filter AND or OR/ time from to / category */}
-      <h1 class="text-center text-4xl font-bold text-txtblack">Projects</h1>
+      <h1 className="text-center text-4xl font-bold text-txtblack">Projects</h1>
       <div className="w-1/2 mx-auto py-12">
         <Select
           classNames={{
@@ -55,7 +55,7 @@ function Projects() {
         />
       </div>
 
-      <div class="flex flex-wrap items-center justify-center gap-8">
+      <div className="flex flex-wrap items-center justify-center gap-8">
         {filteredProjects.map((project, index) => (
           <ProjectCard key={index} project={project} />
         ))}
