@@ -1,4 +1,6 @@
 // import { useState, useRef, useEffect } from "react";
+// @ts-ignore
+// @ts-nocheck
 import Navbar from "./pages/Navbar";
 import Home from "./pages/Home";
 import Skills from "./pages/Skills";
