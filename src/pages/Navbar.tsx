@@ -1,12 +1,7 @@
 // import { ReactComponent as Brand } from '../../assets/icons/logo.svg'
 // import "../App.css";
 import React, { useState, useEffect } from "react";
-import {
-  BrowserRouter as Router,
-  Route,
-  Link,
-  useLocation,
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHouse,
@@ -18,7 +13,7 @@ import {
   faSun,
   faGear,
 } from "@fortawesome/free-solid-svg-icons";
-import Headroom from "react-headroom";
+// import Headroom from "react-headroom";
 
 const Navbar = () => {
   // const [header, setHeader] = useState(false);
@@ -38,11 +33,10 @@ const Navbar = () => {
   //   };
   // }, []);
   const [selectedLink, setSelectedLink] = useState(null);
-  const location = useLocation();
 
   const handleClick = (url) => {
     setSelectedLink(url);
-    console.log(selectedLink);
+    // console.log(selectedLink);
   };
 
   return (
