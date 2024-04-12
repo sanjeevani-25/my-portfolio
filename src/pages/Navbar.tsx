@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { IconProp } from "@fortawesome/fontawesome-svg-core";
 import {
   faHouse,
   faUser,
@@ -51,7 +52,7 @@ const Navbar = () => {
             ["Experience", "experience", faBriefcase],
             ["Contact", "contact", faEnvelope],
           ].map(([title, url, iconName]) => (
-            <Link key={title} to={`/${url}`} onClick={() => handleClick(url)}>
+            <Link key={url.toString()} to={`/${url}`} onClick={() => handleClick(url)}>
               <li className="relative group px-6 pt-3 cursor-pointer flex flex-col justify-center items-center hover:scale-110 h-fit">
                 <FontAwesomeIcon
                   className="size-5"
@@ -67,7 +68,7 @@ const Navbar = () => {
                 ></div>
 
                 <span className="invisible text-txtgrey text-xs pointer-events-none group-hover:visible">
-                  {title}
+                  {title.toString()}
                 </span>
               </li>
             </Link>
