@@ -16,7 +16,8 @@
 
     "noImplicitAny": false,
 
-    // "allowJs": true,
+    "allowJs": true,
+    
 
     /* Linting */
     "strict": true,
@@ -24,6 +25,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "include": ["src","src/**/*"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
