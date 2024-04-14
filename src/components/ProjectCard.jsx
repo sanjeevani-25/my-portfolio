@@ -17,7 +17,7 @@ function ProjectCard({ project }) {
   return (
     <div className="w-1/2 lg:w-1/4 flex flex-col items-center p-0 border-solid border-2 border-bgblack/60 rounded-xl">
       <img
-        src={`/src/assets/images/${project.img[0]}`}
+        src={`src/assets/${project.img[0]}`}
         className="rounded-t-xl"
         alt=""
       />
